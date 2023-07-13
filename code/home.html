@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="Codescandy">
+
+<script>
+    // Render blocking JS:
+    if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
+    </script>
+
+<!-- Favicon icon-->
+<link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon/favicon.ico">
+
+
+<!-- icons CSS -->
+<link href="../assets/libs/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" />
+
+
+
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="../assets/css/theme.min.css">
+<style>
+ @media (max-width: 480px) {
+  .navbar .btn-primary {
+    display: none;
+  }
+}
+
+</style>
+
+  <title>ParcoursFacile</title>
+</head>
+
+<body class="bg-white">
+  <!-- Page content -->
+   <!-- Navbar -->
+   <!-- navbar login -->
+<nav class="navbar navbar-expand-lg shadow-none">
+	<div class="container px-0">
+		<a class="navbar-brand" href="./home.html"><img src="../assets/images/logo/logo.svg" alt=""></a>
+		<div class="d-flex align-items-center order-lg-3">
+			<div class="d-flex align-items-center">
+				
+
+			<a type="button" class="btn btn-dark btn-primary" data-bs-toggle="modal" data-bs-target="#demander-demo-modal">Demander une démo</a>
+			</div>
+			<div>
+				<button
+			class="navbar-toggler collapsed"
+			type="button"
+			data-bs-toggle="collapse"
+			data-bs-target="#navbar-default"
+			aria-controls="navbar-default"
+			aria-expanded="false"
+			aria-label="Toggle navigation"
+		>
+			<span class="icon-bar top-bar mt-0"></span>
+			<span class="icon-bar middle-bar"></span>
+			<span class="icon-bar bottom-bar"></span>
+		</button>
+			</div>
+		</div>
+		<!-- Button -->
+
+		<!-- Collapse -->
+		<div class="collapse navbar-collapse" id="navbar-default">
+			<ul class="navbar-nav mx-auto">
+
+				<li class="nav-item">
+					<a
+						class="nav-link"
+						href="#produit"
+						id="navbarLanding"
+					>
+						Produit
+					</a>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link"
+						href="./blog.html"
+						id="navbarLanding"
+					>
+						Blog
+					</a>
+				</li>
+			</ul>
+
+
+		</div>
+
+	</div>
+</nav>
+
+
+  <!-- section -->
+  <main>
+    <!--learn today-->
+    <section class="py-lg-16 py-6">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class=" col-xxl-6  col-xl-6 col-lg-6 col-12">
+            <div>
+              <h1 class="display-2 fw-bold mb-3">Evaluez <span
+                    class="text-primary">5 fois plus rapidement</span> vos candidatures Parcoursup.</h1>
+              <p class="lead mb-4">Imaginez tout ce que vos enseignants pourraient accomplir s'il libéraient 80% de leur temps lors des sessions Parcoursup !</p>
+              <ul class="list-unstyled mb-5">
+                <li class="mb-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="var(--geeks-success)"
+                    class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                  </svg>
+                  <span class="ms-2">Logiciel 100% personnalisé.</span>
+                </li>
+                <li class="mb-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="var(--geeks-success)"
+                    class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                  </svg>
+                  <span class="ms-2">Disponible partout. Aucune installation requise.</span>
+                </li>
+                <li class="mb-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="var(--geeks-success)"
+                    class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                  </svg>
+                  <span class="ms-2">100% RGPD.</span>
+                </li>
+              </ul>
+              <a type="button" class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#demander-demo-modal">Demander une démo</a>
+            </div>
+          </div>
+          <div class="col-xxl-4 offset-xxl-1 col-xl-6 col-lg-6 col-12 d-lg-flex justify-content-end">
+            <div class="mt-12 mt-lg-0 position-relative">
+              
+			  <img src="../assets/images/background/trophy.svg" alt="trophy"
+                class=" position-absolute top-0  start-30 ms-lg-n14 ms-n5">
+				<img src="../assets/images/background/sound.svg" alt="sound"
+                class=" position-absolute top-0  start-10 mt-18 ms-lg-n19 ms-n8">
+				
+              <img src="../assets/images/people/skils.jpg" alt="online course"
+                class="img-fluid rounded-4 w-100 z-1 position-relative">
+              
+			  <img src="../assets/images/background/target.svg" alt="target"
+                class=" position-absolute bottom-0 mb-10 ms-n10 ms-lg-n1 ">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--learn today-->
+    
+
+    <section class="py-lg-20 py-7 bg-gray-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 col-12">
+            <!-- featues -->
+            <div class="mb-6 mb-lg-0 fs-4">
+              <!-- icon -->
+              <div class="icon-shape icon-lg bg-primary text-light-primary rounded-circle
+                text-center mb-4"><i class="mdi mdi-rocket-launch mdi-24px lh-1"></i></div>
+              <h3 class="fw-bold">Accélération</h3>
+              <p>Divisez par 5 votre temps d'évaluation grâce à l'affichage optimisé de vos candidatures.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 col-12">
+            <!-- features -->
+            <div class="mb-6 mb-lg-0 fs-4">
+              <!-- icon -->
+              <div class="icon-shape icon-lg bg-primary text-light-primary rounded-circle
+                text-center mb-4"><i class="mdi mdi-layers mdi-24px lh-1"></i></div>
+              <h3 class="fw-bold">Simplification</h3>
+              <p>Répartissez & classez automatiquement les candidatures. Supprimez toute tâche chronophage et redondante.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 col-12">
+            <!-- features -->
+            <div class="mb-6 mb-lg-0 fs-4">
+              <!-- icon -->
+              <div class="icon-shape icon-lg bg-primary text-light-primary rounded-circle
+                text-center mb-4"><i class="mdi mdi-cellphone mdi-24px
+                  lh-1"></i></div>
+              <h3 class="fw-bold">Gestion de A à Z</h3>
+              <p>Utilisez un seul outil pour de tout votre processus d'évaluation.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 col-12">
+            <!-- features -->
+            <div class="mb-6 mb-lg-0 fs-4">
+              <!-- icon -->
+              <div class="icon-shape icon-lg bg-primary text-light-primary rounded-circle
+                text-center mb-4"><i class="mdi mdi-security mdi-24px lh-1"></i></div>
+              <h3 class="fw-bold">Sécurisation</h3>
+              <p>Sécurisez vos données et soyez conformes aux RGPD grâce à notre hébergeur OVH.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	<section class="py-lg-14 pt-8 py-10">
+		<!-- container -->
+		<div class="container">
+		  <div class="row">
+			<div class="offset-xl-1 col-xl-10 col-md-12 col-12">
+			  <div class="row text-center" id="produit">
+				<!-- col -->
+				<div class="col-md-12 px-lg-10 mb-8 mt-6">
+				  <span class="text-uppercase text-primary fw-semibold ls-md">Comment ça marche</span>
+				  <!-- heading -->
+				  <h2 class="h1 fw-bold mt-3">Optimisez votre processus de sélection de vos candidatures Parcoursup.
+				  </h2>
+				</div>
+			  </div>
+			  <div class="row gy-6">
+				<!-- col -->
+	
+				<div class="col-md-4 col-12">
+				  <div class=" text-center">
+					<!-- icon -->
+	
+					<div
+					  class="icon-shape icon-lg border border-primary border-2 fs-3 rounded-circle mb-4 process-line text-primary smooth-shadow-md">
+					  1
+					</div>
+					<!-- heading -->
+	
+					<h3>Répartissez</h3>
+					<!-- text -->
+				  </div>
+				</div>
+				<!-- col -->
+	
+				<div class="col-md-4 col-12">
+				  <div class=" text-center">
+					<!-- icon -->
+	
+					<div
+					  class="icon-shape icon-lg border border-primary border-2 fs-3 rounded-circle mb-4 process-line text-primary smooth-shadow-md">
+					  2</div>
+					<!-- heading -->
+	
+					<h3>Evaluez</h3>
+					<!-- text -->
+				  </div>
+				</div>
+				<!-- col -->
+	
+				<div class="col-md-4 col-12">
+				  <div class=" text-center">
+					<!-- icon -->
+	
+					<div
+					  class="icon-shape icon-lg border border-primary border-2 fs-3 rounded-circle mb-4 text-primary smooth-shadow-md">
+					  3</div>
+					<!-- heading -->
+					<h3>Exportez</h3>
+					<!-- text -->
+	
+				  </div>
+				</div>
+				<!-- button -->
+
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+    <!-- image section -->
+    <section class="pb-lg-32 pb-8">
+		<div class="container">
+		  <div class="row align-items-center">
+			<div class="col-lg-6 col-md-12 col-12">
+			  <!-- image -->
+			  <div class="mb-4 mb-lg-0 bg-gray-200 rounded-4 ">
+				<img src="../assets/images/software/page_web_reglages.svg" alt="featured" class="img-fluid w-100">
+			  </div>
+			</div>
+			<div class="col-lg-6 col-md-12 col-12 mt-4 mt-lg-0">
+			  <!-- content -->
+			  <div class="ps-lg-7">
+				<span class=" text-primary ls-md text-uppercase
+				  fw-semibold">Répartition</span>
+				<h2 class="display-4 mt-4 mb-3 fw-bold">​1. Répartissez-vous les candidatures en 3 clics.</h2>
+				<h3>Vos candidatures sont réparties automatiquement entre vos évaluateurs, comme vous le souhaitez.</h3>
+				<div class="mt-5 row">
+				  <!-- list -->
+				  <div class="col">
+					<ul class="list-unstyled fs-4
+					  fw-medium">
+					  <li class="mb-2 d-flex"><i class="mdi mdi-check-circle
+						  text-success me-2"></i>Importation instantanée des candidatures</li>
+					  <li class="mb-2 d-flex"><i class="mdi mdi-check-circle
+						  text-success me-2"></i>Pré-calcul personnalisé des moyennes</li>
+					  <li class="mb-2 d-flex"><i class="mdi mdi-check-circle
+						  text-success me-2"></i>Répartition personnalisée</li>
+					</ul>
+				  </div>
+				  
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <!-- divider -->
+		  <hr class="my-lg-12 my-8">
+		  <div class="row align-items-center">
+			<!-- col -->
+			<div class="col-lg-6 col-md-12 col-12">
+			  
+				<!-- content -->
+			  <div class="pe-lg-6 ps-lg-6">
+				<span class="text-primary ls-md text-uppercase
+				  fw-semibold">Evaluation
+				</span>
+				<h2 class="display-4 mt-4 mb-3 fw-bold">​2. Evaluez chaque candidature sur 1 seule page.</h2>
+				<h3>Evaluez vos candidatures en 3 clics sur la même page. Les informations sont affichées dans l'ordre que vous souhaitez !</h3>
+				<div class="mt-6">
+					<div class="col">
+						<ul class="list-unstyled fs-4
+						  fw-medium">
+						  <li class="mb-2 d-flex"><i class="mdi mdi-check-circle
+							  text-success me-2"></i>Accès à toute la candidature sur 1 page</li>
+							<li class="mb-2 d-flex"><i class="mdi mdi-check-circle
+							text-success me-2"></i>Surlignage des mots importants à faire ressortir</li>
+						  <li class="mb-2 d-flex"><i class="mdi mdi-check-circle
+							  text-success me-2"></i>Fonction d'évaluation personnalisée</li>
+
+						</ul>
+					  </div>
+  
+				</div>
+			  </div>
+			</div>
+			<div class="col-lg-6 col-md-12 col-12">
+			  <!-- image -->
+			  <div class="mt-4 mt-lg-0 bg-gray-200 rounded-4">
+				<img src="../assets/images/software/page_web_candidature.svg" alt="featured" class="img-fluid w-100">
+			  </div>
+			</div>
+		  </div>
+
+		  <!-- divider -->
+		  <hr class="my-lg-12 my-8">
+		  <div class="row align-items-center">
+			<div class="col-lg-6 col-md-12 col-12">
+			  <!-- image -->
+			  <div class="mb-4 mb-lg-0 bg-gray-200 rounded-4 ">
+				<img src="../assets/images/software/page_web_classement.svg" alt="featured" class="img-fluid w-100">
+			  </div>
+			</div>
+			<div class="col-lg-6 col-md-12 col-12 mt-4 mt-lg-0">
+			  <!-- content -->
+			  <div class="ps-lg-7">
+				<span class=" text-primary ls-md text-uppercase
+				  fw-semibold">Export</span>
+				<h2 class="display-4 mt-4 mb-3 fw-bold">​3. Exportez le classement final en 1 clic.
+					Et voilà !</h2>
+				<h3>Vos candidats sont classés automatiquement en fonction des notes que vous leur attribuez.</h3>
+				<div class="mt-5 row">
+				  <!-- list -->
+				  <div class="col">
+					<ul class="list-unstyled fs-4
+					  fw-medium">
+					  <li class="mb-2 d-flex"><i class="mdi mdi-check-circle
+						  text-success me-2"></i>Excel & .csv</li>
+					  <li class="mb-2 d-flex"><i class="mdi mdi-check-circle
+						  text-success me-2"></i>Prise en compte éventuelle des quotas</li>
+					  <li class="mb-2 d-flex"><i class="mdi mdi-check-circle
+						  text-success me-2"></i>0 risque d'erreur</li>
+					</ul>
+				  </div>
+				  
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+
+	
+	<section class="py-lg-32 bg-gray-100 pt-8 pb-10">
+    <!-- container -->
+
+    <div class="container">
+      <div class="row">
+        <div class="offset-xl-1 col-xl-10 col-md-12 col-12">
+          <div class="row text-center">
+            <!-- col -->
+
+            <div class="col-md-12 px-md-16 mb-8 mt-6">
+              <span class="text-uppercase text-primary fw-semibold ls-md">Témoignage
+              </span>
+              <!-- heading -->
+
+              <h2 class="h1 fw-bold mt-3  mb-2">Ce que pensent les formations post-bac
+              </h2>
+              <!-- text -->
+
+             
+            </div>
+          </div>
+
+          <div class="row align-items-center">
+            <div class="col-lg-7 col-md-12 col-12">
+              <div class="mb-8 mb-lg-0 me-lg-4">
+                <!-- text -->
+
+                <p class="display-6 mb-4 lh-2">"Quel bonheur cette plateforme pour le confort de lecture qu’elle nous apporte !</p>
+					<p class="display-6 mb-4 lh-2">
+					ParcoursFacile fonctionne parfaitement. Je vous remercie pour la qualité du service fourni."</p>
+                <!-- text -->
+
+                <p class="mb-0 ">Claire d'Hennezel</p>
+                <span class="">Co-responsable du BUT Info-comm Publicité - IUT Bordeaux Montaigne</span>
+              </div>
+
+
+            </div>
+            <!-- col -->
+
+            <div class="col-lg-5 col-md-12 col-12">
+              <div>
+                <!-- Img -->
+
+                <!-- <img src="../assets/images/people/Claire-DHennezel.jpg" alt="case-study" class="img-fluid rounded-3 w-50"> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!--find right-->
+    <section class="pb-lg-10 pt-8 pb-10">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-10 offset-xl-1 col-md-12 col-12">
+            <div class="bg-primary py-6 px-6 px-xl-0 rounded-4 ">
+              <div class="row align-items-center">
+                <div class="offset-xl-1 col-xl-5 col-md-6 col-12">
+                  <div>
+                    <h2 class="h1 text-white mb-3">Rejoignez ParcoursFacile !</h2>
+                    <p class="text-white fs-4">…et gagnez énormément de temps dès la prochaine session Parcoursup !</p>
+                    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#demander-demo-modal">Demander une démo</button>
+                  </div>
+
+                </div>
+                <div class="col-xl-6 col-md-6 col-12">
+                  <div class="text-center">
+                    <img src="../assets/images/drawings/course.png" alt="learning" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--find right-->
+
+
+<!-- Modal -->
+<div class="modal fade" id="demander-demo-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">Demander une démo du logiciel</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    
+                </button>
+            </div>
+            <div class="modal-body">
+              <div class="d-flex justify-content-between">
+                <span>Ou contactez-nous : </span>
+                <div class="text-end">
+                  <span>0659962598 </span>
+                  <a href="#">| aubin@parcoursfacile.fr</a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card border">
+                <!-- card body  -->
+               <div class="card-body p-5">
+                  <!-- form  -->
+                  <form action="https://formsubmit.co/6f99aef43908256312eedaf69927f386" method="POST">
+                  <!-- Honeypot -->
+                  <input type="text" name="_honey" style="display: none;">
+
+                  <!-- Disable Captcha -->
+                  <input type="hidden" name="_captcha" value="false">
+
+                  <!-- <input type="hidden" name="_next" value="/success.html" > -->
+
+                    <!-- input  -->
+                   <div class="mb-3">
+                     <label class="form-label" for="name">Votre nom et prénom</label>
+                     <input class="form-control" type="text" name="name" placeholder="Votre nom et prénom" id="name">
+                   </div>
+                       <!-- input  -->
+                   <div class="mb-3">
+                     <label class="form-label" for="formation">Nom de votre formation</label>
+                     <input class="form-control" type="text" name="formation" placeholder="Nom de votre formation" id="formation">
+                   </div>
+                   <!-- input  -->
+                   <div class="mb-3">
+                    <label class="form-label" for="etablissement">Nom de votre établissement *</label>
+                    <input class="form-control" type="text" name="etablissement" placeholder="Nom de votre établissement" id="etablissement" required>
+                  </div>
+                       <!-- input  -->
+                   <div class="mb-3">
+                     <label class="form-label" for="email">Votre adresse mail *</label>
+                     <input class="form-control" type="email" name="email" placeholder="Votre adresse mail" id="email" required>
+                   </div>
+                   <!-- input  -->
+                   <div class="mb-3">
+                    <label class="form-label" for="phone">Votre numéro de téléphone *</label>
+                    <input class="form-control" type="text" name="phone" placeholder="Votre numéro de téléphone" id="phone" required>
+                  </div>
+                       <!-- button  -->
+                   <button class="btn btn-primary" type="submit">Envoyer</button>
+                 </form>
+               </div>
+             </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+  </main>
+<!-- footer -->
+      <!-- footer -->
+	  <footer class="py-lg-10 py-5">
+        <div class="container">
+            <div class="row  justify-content-center text-center  ">
+                <div class="col-12 col-md-12 col-xl-8 px-0 ">
+                    <nav class="nav nav-footer justify-content-center">
+                        <a class="nav-link" href="#">Produit </a>
+                        <a class="nav-link" href="#">Tarifs </a>
+                        <a class="nav-link" href="#">Blog</a>
+                    </nav>
+                </div>
+                <!-- Desc -->
+                <div class="col-lg-8 col-md-12 col-12">
+                    <div class="my-6">
+                        <!--Phone-->
+                        <a href="tel:+33659962598" class="text-muted me-4">
+                          <i class="mdi mdi-phone fs-3"></i>
+                      </a>
+                      <!--Email-->
+                      <a href="mailto:aubin@parcoursfacile.fr" class="text-muted me-4">
+                          <i class="mdi mdi-email  fs-3"></i>
+                      </a>
+                      <!--LinkedIn-->
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/aubin-massart/" class="text-muted me-4">
+                          <i class="mdi mdi-linkedin fs-3"></i>
+                      </a>
+                        
+                        
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12">
+                    <span>© <span id="copyright3">
+                        <script>document.getElementById('copyright3').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                    </span> ParcoursFacile | Tous droits réservés</span>
+                </div>
+
+                <!-- Links -->
+
+            </div>
+        </div>
+    </footer>
+  <!-- Scripts -->
+  <!-- Libs JS -->
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/simplebar.min.js"></script>
+
+
+<!-- Theme JS -->
+<script src="../assets/js/theme.min.js"></script>
+
+  <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="../assets/js/popup.js"></script>
+
+
+</body>
+
+</html>

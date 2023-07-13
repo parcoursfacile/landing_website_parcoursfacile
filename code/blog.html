@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>	<!-- Required meta tags -->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="Codescandy">
+
+<script>
+    // Render blocking JS:
+    if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
+    </script>
+
+<!-- Favicon icon-->
+<link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon/favicon.ico">
+
+<!-- Libs CSS -->
+<link href="../assets/libs/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" />
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="../assets/css/theme.min.css">
+<style>
+    @media (max-width: 480px) {
+     .navbar .btn-primary {
+       display: none;
+     }
+   }
+   
+   </style>
+	<title>ParcoursFacile</title>
+</head>
+
+<body class="bg-white">
+    <!-- navbar login -->
+    <nav class="navbar navbar-expand-lg shadow-none">
+        <div class="container px-0">
+            <a class="navbar-brand" href="./home.html"
+                ><img src="../assets/images/logo/logo.svg" alt=""
+            ></a>
+            <div class="d-flex align-items-center order-lg-3">
+                <div class="d-flex align-items-center">
+                    
+    
+                <a type="button" class="btn btn-dark btn-primary" data-bs-toggle="modal" data-bs-target="#demander-demo-modal">Demander une démo</a>
+                </div>
+                <div>
+                    <button
+                class="navbar-toggler collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar-default"
+                aria-controls="navbar-default"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="icon-bar top-bar mt-0"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+            </button>
+                </div>
+            </div>
+            <!-- Button -->
+    
+            <!-- Collapse -->
+            <div class="collapse navbar-collapse" id="navbar-default">
+                <ul class="navbar-nav mx-auto">
+    
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="./home.html"
+                            id="navbarLanding"
+                        >
+                            Produit
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="./blog.html"
+                            id="navbarLanding"
+                        >
+                            Blog
+                        </a>
+                    </li>
+                </ul>
+    
+    
+            </div>
+    
+        </div>
+    </nav>
+	<!-- Page content -->
+	<main>
+		
+		<!-- Page header -->
+		<div class="pt-9 pb-9">
+			<div class="container">
+				<div class="row">
+					<div class="offset-xl-2 col-xl-8 offset-lg-1 col-lg-10 col-md-12 col-12">
+						<div class="text-center mb-5">
+							<h1 class="display-2 fw-bold">Blog</h1>
+							<p class="lead">
+								Découvrez les dernières tendances et des ressources utiles pour gérer et accélérer votre processus de sélection Parcoursup.
+							</p>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Page Content -->
+		<section class="pb-12">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-4 col-lg-4 col-md-6 col-12">
+						
+						<span>Les articles seront publiés prochainement...</span>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+
+
+<!-- Modal -->
+<div class="modal fade" id="demander-demo-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">Demander une démo du logiciel</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    
+                </button>
+            </div>
+            <div class="modal-body">
+              <div class="d-flex justify-content-between">
+                <span>Ou contactez-nous : </span>
+                <div class="text-end">
+                  <span>0659962598 </span>
+                  <a href="#">| aubin@parcoursfacile.fr</a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card border">
+                <!-- card body  -->
+               <div class="card-body p-5">
+                  <!-- form  -->
+                  <form action="https://formsubmit.co/6f99aef43908256312eedaf69927f386" method="POST">
+                  <!-- Honeypot -->
+                  <input type="text" name="_honey" style="display: none;">
+
+                  <!-- Disable Captcha -->
+                  <input type="hidden" name="_captcha" value="false">
+
+                  <!-- <input type="hidden" name="_next" value="/success.html" > -->
+
+                    <!-- input  -->
+                   <div class="mb-3">
+                     <label class="form-label" for="name">Votre nom et prénom</label>
+                     <input class="form-control" type="text" name="name" placeholder="Votre nom et prénom" id="name">
+                   </div>
+                       <!-- input  -->
+                   <div class="mb-3">
+                     <label class="form-label" for="formation">Nom de votre formation</label>
+                     <input class="form-control" type="text" name="formation" placeholder="Nom de votre formation" id="formation">
+                   </div>
+                   <!-- input  -->
+                   <div class="mb-3">
+                    <label class="form-label" for="etablissement">Nom de votre établissement *</label>
+                    <input class="form-control" type="text" name="etablissement" placeholder="Nom de votre établissement" id="etablissement" required>
+                  </div>
+                       <!-- input  -->
+                   <div class="mb-3">
+                     <label class="form-label" for="email">Votre adresse mail *</label>
+                     <input class="form-control" type="email" name="email" placeholder="Votre adresse mail" id="email" required>
+                   </div>
+                   <!-- input  -->
+                   <div class="mb-3">
+                    <label class="form-label" for="phone">Votre numéro de téléphone *</label>
+                    <input class="form-control" type="text" name="phone" placeholder="Votre numéro de téléphone" id="phone" required>
+                  </div>
+                       <!-- button  -->
+                   <button class="btn btn-primary" type="submit">Envoyer</button>
+                 </form>
+               </div>
+             </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+		<!-- Footer -->
+<!-- footer -->
+      <!-- footer -->
+	  <footer class="py-lg-10 py-5">
+        <div class="container">
+            <div class="row  justify-content-center text-center  ">
+                <div class="col-12 col-md-12 col-xl-8 px-0 ">
+                    <nav class="nav nav-footer justify-content-center">
+                        <a class="nav-link" href="#">Produit </a>
+                        <a class="nav-link" href="#">Tarifs </a>
+                        <a class="nav-link" href="#">Blog</a>
+                    </nav>
+                </div>
+                <!-- Desc -->
+                <div class="col-lg-8 col-md-12 col-12">
+                    <div class="my-6">
+                        <!--Phone-->
+                        <a href="tel:+33659962598" class="text-muted me-4">
+                            <i class="mdi mdi-phone fs-3"></i>
+                        </a>
+                        <!--Email-->
+                        <a href="mailto:aubin@parcoursfacile.fr" class="text-muted me-4">
+                            <i class="mdi mdi-email  fs-3"></i>
+                        </a>
+                        <!--LinkedIn-->
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/aubin-massart/" class="text-muted me-4">
+                            <i class="mdi mdi-linkedin fs-3"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12">
+                    <span>© <span id="copyright3">
+                        <script>document.getElementById('copyright3').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                    </span> ParcoursFacile | Tous droits réservés</span>
+                </div>
+
+                <!-- Links -->
+
+            </div>
+        </div>
+    </footer>
+
+	</main>
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/simplebar.min.js"></script>
+    
+    
+    <!-- Theme JS -->
+    <script src="../assets/js/theme.min.js"></script>
+    
+      <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+      <script src="../assets/js/popup.js"></script>
+
+
+</body>
+
+</html>
